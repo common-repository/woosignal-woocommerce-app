@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+.btn-custom {
+    width: 100px;
+    border-radius: 5px;
+}
+
+.img-max {
+    width: 100%;
+}
+
+.header {
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.mh-450 {max-height: 450px;}
+.join-today {
+    border: 2px solid #69bec1;
+    background-color: white;
+    padding: 6px;
+    border-radius: 4px;
+
+}
+.p-detail {
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+}
+.p-small {
+    font-size: 13px;
+    color: #4b4f53;
+}
+.pb-0 {
+    padding-bottom: 0px;
+}
+.a-clean {
+    text-decoration: none;
+}
+
+ul > li {
+    padding-bottom: 10px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.custom-btn-get-started {
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: 0 0 2px rgb(82 82 82 / 40%);
+    border-radius: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #fff;
+    font-weight: 500;
+    margin-left: 10px;
+    background-color: #5d8ada;
+    margin-bottom: 20px;
+}
+
+.custom-btn-get-started:hover {
+    color: #d4e4ff;
+}
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.custom-btn-white {
+    padding: 10px 25px;
+    font-size: 15px;
+    color: #fff;
+    box-shadow: 1px 1px 11px rgb(98 129 157 / 40%);
+    border-radius: 7px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: #5791ef;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.title-head-h1 {
+    text-align: left;
+    font-size: 46px;
+    color: #39335b;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.wc-purple {
+    color: #9b5c8f;
+}
+
+.announcement {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 0 0 3px 0px;
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 500;
+    color: #21262a;
+    text-decoration: none;
+    background: rgba(0,0,140,.08);
+    line-height: 26px;
+    border-radius: 15px;
+}
